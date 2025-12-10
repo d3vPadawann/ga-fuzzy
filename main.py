@@ -4,7 +4,7 @@ import pygad
 import math
 
 # --- CONFIGURAÇÕES DO AMBIENTE ---
-TRACK_IMAGE_PATH = 'circuit1.png'
+TRACK_IMAGE_PATH = 'circuit0.png'
 OUTPUT_VIDEO_PATH = 'resultado_final.mp4'
 NUM_SENSORS = 5
 NUM_RULES = 10 
