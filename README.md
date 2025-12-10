@@ -85,3 +85,8 @@ O algoritmo gera um vídeo `resultado_final.mp4` demonstrando o comportamento do
 Este projeto foi desenvolvido para fins acadêmicos.
 
 Este readme foi gerado com IA. :)
+
+## Autores
+
+- Matheus Ramos de Oliveira
+- João Vitor de Jesus Nery dos Santos
