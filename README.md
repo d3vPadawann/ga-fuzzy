@@ -1,8 +1,8 @@
-# 🚗 GA-Fuzzy: Carrinho Autônomo com Lógica Fuzzy e Algoritmo Genético
+# GA-Fuzzy: Carrinho Autônomo com Lógica Fuzzy e Algoritmo Genético
 
 Este projeto implementa um **carrinho autônomo** que aprende a navegar em um circuito utilizando **Lógica Fuzzy** otimizada por **Algoritmo Genético (GA)**.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O sistema simula um veículo equipado com **5 sensores de distância** que detectam obstáculos (paredes do circuito). Um controlador Fuzzy processa as leituras dos sensores e decide o ângulo de direção do carrinho.
 
@@ -17,18 +17,18 @@ O diferencial do projeto é que as **regras Fuzzy são evoluídas automaticament
 ### Função de Fitness
 
 O algoritmo otimiza:
-- ✅ **Exploração**: Recompensa por visitar novos setores do mapa
-- ⚖️ **Estabilidade**: Penaliza rotações excessivas
-- ⏱️ **Eficiência**: Considera o tempo de navegação
+-  **Exploração**: Recompensa por visitar novos setores do mapa
+-  **Estabilidade**: Penaliza rotações excessivas
+- ⏱ **Eficiência**: Considera o tempo de navegação
 
-## 🛠️ Requisitos
+##  Requisitos
 
 - Python 3.8+
 - OpenCV
 - NumPy
 - PyGAD
 
-## 📦 Instalação
+## Instalação
 
 1. Clone o repositório:
 ```bash
@@ -41,7 +41,7 @@ cd ga-fuzzy
 pip install opencv-python numpy pygad
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 Execute o script principal:
 
@@ -55,7 +55,7 @@ Durante a execução:
 - Pressione **Q** para interromper a simulação atual
 - Ao final, um vídeo do melhor resultado é salvo automaticamente
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── main.py              # Código principal
@@ -65,7 +65,7 @@ Durante a execução:
 └── README.md
 ```
 
-## ⚙️ Configurações
+## Configurações
 
 No início do arquivo `main.py`, você pode ajustar:
 
@@ -76,11 +76,11 @@ No início do arquivo `main.py`, você pode ajustar:
 | `NUM_RULES` | Número de regras Fuzzy | `10` |
 | `num_generations` | Gerações do GA | `20` |
 
-## 📊 Resultados
+## Resultados
 
 O algoritmo gera um vídeo `resultado_final.mp4` demonstrando o comportamento do melhor controlador Fuzzy evoluído.
 
-## 📝 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos.
 
